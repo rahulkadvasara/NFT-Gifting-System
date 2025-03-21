@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Gifting System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>NFT Gifting System</h1>
+
+        <div class="mint-section">
+            <h2>Mint an NFT</h2>
+            <input type="text" id="recipientAddress" placeholder="Recipient Address">
+            <input type="text" id="tokenURI" placeholder="Token URI">
+            <button onclick="mintNFT()">Mint NFT</button>
+            <p id="mintStatus"></p>
+        </div>
+
+        <div class="gift-section">
+            <h2>Gift an NFT</h2>
+            <input type="text" id="receiverAddress" placeholder="Receiver Address">
+            <input type="number" id="tokenId" placeholder="Token ID">
+            <button onclick="giftNFT()">Gift NFT</button>
+            <p id="giftStatus"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
