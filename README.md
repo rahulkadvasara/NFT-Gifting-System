@@ -25,4 +25,8 @@ The NFT Gifting System aims to create a seamless and trustless mechanism for gif
 0x09d8777cf535AF12e2Dc119C5c90B81146d5d931
 ![image](https://github.com/user-attachments/assets/85f156aa-9873-4af4-b85c-e69ced1c97fc)
 
+## Frontend
+![image](https://github.com/user-attachments/assets/a4d8c771-5798-4be9-9e69-787e01ba3350)
+
+
 
